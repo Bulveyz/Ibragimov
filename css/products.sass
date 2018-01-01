@@ -1,0 +1,153 @@
+/*Products */
+.products-section
+  margin-bottom: 90px
+
+  .products
+    margin-bottom: 60px
+/*Products Label*/
+.products-header
+  margin-bottom: 55px
+  /*Products Title*/
+  &__title
+    font-size: 30px
+    font-weight: 700
+    letter-spacing: 2px
+    line-height: 54px
+    /*Products Subtitle*/
+  &__text
+    color: #9f9f9f
+    font-size: 14px
+/*Products Item*/
+.products__box-item
+  margin-bottom: 30px
+
+/*Products Action Hover*/
+.products__box-item:hover .products__box-item__img-block .products__box-item__filter
+  opacity: 1
+
+/*Products Image*/
+.products__box-item__img-block
+  position: relative
+
+/*Product Filters*/
+.products__box-item__filter
+  position: absolute
+  background-color: rgba(13, 13, 13, 0.71)
+  width: 100%
+  height: 100%
+  opacity: 0
+  transition: opacity .5s
+
+/*Products Info Text*/
+.products__box-item__text
+  padding: 14px 13px 14px
+  line-height: 30px
+  text-transform: uppercase
+  transition: box-shadow .5s
+/*Products Hover Shadow*/
+.products__box-item:hover .products__box-item__text
+  box-shadow: 0 0 15px 0 #696969
+
+/*Products Button Add To Cart*/
+.products__box-item__filter__text a
+  color: #fff
+  border: 2px solid #9d9998
+  padding: 12px
+  font-size: 13px
+  box-shadow: 2px 0 0 0 #fff
+  transition: .2s
+  &:hover
+    text-decoration: none
+    border: 1px solid #9d9998
+    box-shadow: 1px 0 0 0 #fff
+
+/*Products Button Show All*/
+.products__btn-show-all
+  background-color: #f16d7f
+  color: #fff
+  padding: 15px 20px
+  font-size: 16px
+  font-weight: 700
+  transition: .5s
+  &:hover
+    color: #fff
+    text-decoration: none
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.52)
+
+/*Products Adaptive Button*/
+@media screen and (max-device-width: 1200px)
+  .products__btn-show-all
+    padding: 10px 10px
+
+/*Products Item Name*/
+.products__box-item__text__item-name
+  font-size: 15px
+  font-weight: 400
+  text-transform: uppercase
+  margin: 0
+  color: #6f6e6e
+
+/*Products Price*/
+.products__box-item__text__item-price
+  font-size: 16px
+  font-weight: 700
+  color: $color-primary
+  margin: 0
+/*Products DropDown Focus*/
+.dropdown-toggle:focus::after
+  -webkit-transform: rotate(360deg)
+  transform: rotate(180deg)
+
+/*Products Pagination*/
+.page-link
+  border: none  
+  padding: 5px
+  color: #c4c4c4
+
+.page-link-active
+  color: $color-primary
+
+.pagination
+  border: 1px solid #ebebeb
+  border-radius: 3px
+  width: 200px  
+/*End Products Pagination*/
+
+/*Products Button View All*/
+.view-all
+  color: $color-primary
+  font-style: 16px
+  font-weight: 300  
+  line-height: 26px
+  border: 1px solid $color-primary
+  border-radius: 3px
+  padding: 4px
+  float: right
+  padding-left: 30px
+  padding-right: 30px
+
+/*Products Feature Block*/
+.feature
+  background-color: #222224
+  padding-top: 70px
+  padding-bottom: 70px
+
+/*Products Feature Block Title*/
+.feature__title
+  color: #fbfbfb
+  font-size: 20px
+  font-weight: 700
+  letter-spacing: 0.5px
+  margin-bottom: 20px
+  margin-top: 20px
+
+/*Products Feature Block Text*/
+.feature__text
+  color: #fbfbfb
+  font-size: 14px  
+  line-height: 23.95px
+  font-weight: 300
+  letter-spacing: 0.35px
+  /*End Products Feature Block*/
+
+/*End Products*/

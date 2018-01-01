@@ -1,0 +1,217 @@
+/*Header*/
+
+/*Header Block*/
+.header-top
+  height: 98px
+  border-bottom: 1px solid #ececec
+/*End Header Block*/
+
+/*Header Brand*/
+.header-top__block__brand:hover
+  text-decoration: none
+
+/*Header Title*/
+.header-top__block__brand__title
+  color: #222222
+  font-weight: 300
+  font-size: 27px
+  text-transform: uppercase
+  letter-spacing: 0.68px
+  margin-top: 12px
+  & span
+    color: #f16d7f
+    font-weight: 700
+/*End Header Brand*/
+
+/*Header Button Browse*/
+.browse-btn
+  background-color: #f8f8f8
+  font-size: 14px
+  font-weight: 300
+  padding-top: 10px
+  padding-bottom: 10px
+  border: 1px solid #f2f2f2
+  border-radius: 3px 0 0 3px
+
+.header-top__block__browse .dropdown-toggle:after
+  border-top-color: #838383
+
+/*Header Browse DropDown*/
+.browse-menu
+  padding-right: 5px
+  padding-left: 5px
+  min-width: 300px
+
+.browse-btn:focus::after
+  -webkit-transform: rotate(360deg)
+  transform: rotate(180deg)
+/*End Header Button Browse*/
+
+/*Header Button Search*/
+.header-top__block__input-search
+  font-size: 14px
+  border: 1px solid #f2f2f2
+
+/*Header Search Button*/
+.search-btn
+  color: #a4a4a4
+  background-color: #fff
+  font-size: 14px
+  font-weight: 400
+  padding-top: 10px
+  padding-bottom: 10px
+  border: 1px solid #f2f2f2
+  border-radius: 0 3px 3px 0
+/*End Header Button Search*/
+
+/*Header Button Menu Cart*/
+.cart-btn
+  background-color: #fff
+  border: none
+  &:hover
+    background-color: #fff
+    cursor: pointer
+  &:focus
+    background-color: #fff
+    box-shadow: none
+
+/*Header Cart Menu Toggle*/
+.header-top__block__cart .dropdown-toggle:after
+  border-top: none
+
+/*Header Cart Menu*/
+.cart-menu
+  padding: 5px 15px
+
+/*Header Cart Menu Info*/
+.cart-menu__info
+  min-width: 140px
+  padding: 5px 0 0 15px
+
+/*Header Cart Menu Item Name*/
+.cart-menu__info__name
+  font-size: 12px
+  font-weight: 700
+  text-transform: uppercase
+  margin-bottom: 5px
+
+/*Header Cart Menu Item Rank*/
+.cart-menu__info__rank
+  color: #e4af48
+  font-size: 12px
+  font-weight: 400
+  margin-bottom: 5px
+
+/*Header Cart Menu Item Price*/
+.cart-menu__info__price
+  color: $color-primary
+  font-size: 12px
+  font-weight: 400
+
+/*Header Cart Menu Item Action Delete*/
+.cart-menu__delete a
+  color: #c0c0c0
+  font-size: 16px
+  font-weight: 400
+  &:hover
+    color: #a8a8a8
+
+/*Header Cart Menu Total Price*/
+.cart-menu__total
+  margin-bottom: 10px
+  text-transform: uppercase
+  font-weight: 700
+  font-size: 16px
+
+/*Header Cart Menu Checkout Button*/
+.cart-menu__button-checkout
+  width: 100%
+  text-align: center
+  font-size: 14px
+  text-transform: uppercase
+  color: $color-primary
+  border: 1px solid $color-primary
+  padding: 10px 20px
+  margin-bottom: 10px
+  &:hover
+    color: #ff8fa0
+    border-color: #ff8fa0
+    text-decoration: none
+
+/*Header Cart Menu Go To Cart Button*/
+.cart-menu__button-gocart
+  width: 100%
+  text-align: center
+  color: #4a4a4a
+  border: 1px solid #eaeaea
+  text-transform: uppercase
+  font-size: 14px
+  padding: 10px 20px
+  margin-bottom: 10px
+  &:hover
+    color: #757575
+    border-color: #f2f2f2
+    text-decoration: none
+/*End Header Button Menu Cart*/
+
+/*Header Button My Account*/
+.account-btn
+  margin-top: 2px
+  background-color: $color-primary
+  color: #fff
+  border: 1px solid $color-primary
+  &:hover
+    background-color: #ff8fa0
+    color: #fff
+    border: 1px solid #ff8fa0
+  &:focus
+    background-color: #ff8fa0
+    color: #fff
+    box-shadow: none
+    border: 1px solid #ff8fa0
+
+
+.account-btn:focus::after
+  -webkit-transform: rotate(360deg)
+  transform: rotate(180deg)
+/*End Header Button My Account*/
+
+/*Header Navigation Links*/
+.nav-item
+  margin-right: 25px
+
+.nav-link
+  color: #222222
+  font-size: 14px
+  font-weight: 700
+  text-transform: uppercase
+
+li.active
+  border-bottom: 3px solid $color-primary
+
+.navbar-light .navbar-nav .nav-link
+  color: #222222
+/*End Header Navigation Links*/
+
+/*Header DropDown Head Settings*/
+.dropdown-header
+  color: #232323
+  font-size: 14px
+  font-weight: 700
+  text-transform: uppercase
+  padding-bottom: 0
+/*Header DropDown Head Settings*/
+
+/*Adaptive For Navigation Links*/
+@media (max-width: 992px)
+  .nav-item
+    margin: 0
+/*End Adaptive For Navigation Links*/
+
+/*End Header*/
+
+.block
+  text-align: center
+
+.block:hover
+  transform: rotate(180deg)

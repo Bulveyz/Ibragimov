@@ -1,0 +1,65 @@
+/*Feature */
+.feature-section {
+  margin-bottom: 90px; }
+
+.feature {
+  /*Feature Banner Box */ }
+  .feature__banner {
+    position: relative;
+    /*Feature Label */ }
+    .feature__banner__label {
+      position: absolute;
+      top: 140px;
+      left: 40px;
+      /*Feature Title */ }
+      .feature__banner__label__title {
+        color: #fff;
+        font-size: 54px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        /*Feature Subtitle */ }
+      .feature__banner__label__subtitle {
+        color: #fff;
+        font-size: 32px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.9px; }
+  .feature__banner-box {
+    background-color: #222224;
+    /*Feaeture Item */ }
+    .feature__banner-box__item {
+      padding: 50px 0 0 20px;
+      /*Feature Banner Box title */ }
+      .feature__banner-box__item__label {
+        margin-left: 20px;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 24px; }
+
+/*End Feature */
+/* Adaptive Label Banner Box */
+@media screen and (max-device-width: 1200px) {
+  .feature__banner-box__item {
+    padding: 20px 0 0 20px; } }
+@media screen and (max-device-width: 576px) {
+  .feature__banner__label {
+    top: 90px;
+    left: 10px; }
+
+  .feature__banner__label__title {
+    font-size: 30px; }
+
+  .feature__banner__label__subtitle {
+    font-size: 16px; } }
+@media screen and (max-device-width: 360px) {
+  .feature__banner__label {
+    top: 60px; }
+
+  .feature__banner__label__title {
+    font-size: 20px; }
+
+  .feature__banner__label__subtitle {
+    font-size: 12px; } }
+/* End Adaptive Label Banner Box */
